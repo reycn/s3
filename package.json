@@ -1,0 +1,21 @@
+{
+  "name": "s3",
+  "module": "upload.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run upload.ts"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.782.0",
+    "@types/bun": "^1.2.9",
+    "@types/figlet": "^1.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "figlet": "^1.8.0"
+  }
+}
